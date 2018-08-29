@@ -6,7 +6,7 @@ Module LoroTest
         Dim primerAve As New Loro
 
         primerAve.FechaNacimiento = #12/25/2013#
-        primerAve.Nombre = "Paco"
+        primerAve.Nombre = "PacoL"
         Console.WriteLine("Nombre del ave: {0}", primerAve.Nombre)
         Console.WriteLine("Fecha de nacimiento: {0}", primerAve.FechaNacimiento)
         Console.WriteLine("Edad del ave: {0}", primerAve.Edad)

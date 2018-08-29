@@ -1,5 +1,5 @@
 ﻿Public Class Loro
-    Private _memoria As Queue(Of String)
+    Protected _memoria As Queue(Of String)
     Private _auxiliar As String
     Private _auxiliar2 As String
     Private _fechaNacimiento As Date
@@ -8,7 +8,7 @@
     'constructor
     Sub New()
         Me.Nombre = ""
-        'Me.FechaNacimiento = Now()
+        Me.FechaNacimiento = Now()
         _memoria = New Queue(Of String)
     End Sub
 
@@ -62,8 +62,7 @@
         If _memoria.Count > 0 Then
             _auxiliar = _memoria.Dequeue
             _auxiliar2 = _auxiliar2 & _auxiliar & " "
-        End If,
-
+        End If
         Return _auxiliar2
     End Function
 
