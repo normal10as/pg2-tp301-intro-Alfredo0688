@@ -39,7 +39,7 @@
     End Function
 
     Public Overrides Function ToString() As String
-        Return "Esta es la jaula de " & Nombre
+        Return "Esta es la jaula: " & Nombre
     End Function
 
 End Class

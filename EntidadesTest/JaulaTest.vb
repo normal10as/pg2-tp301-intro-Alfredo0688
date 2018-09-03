@@ -5,9 +5,10 @@ Module JaulaTest
 
 
         Dim jaula1 As New Jaula
-        jaula1.Nombre = "Paco"
+        jaula1.Nombre = "Santuario"
 
         Dim loro1 As New Loro
+        loro1.Nombre = "Pepe"
 
         Dim cotorra1 As New Cotorra
         cotorra1.Nombre = "Laura"
@@ -29,7 +30,8 @@ Module JaulaTest
         jaula1.addCotorra(cotorra3)
 
         Console.WriteLine("ToString: {0}", jaula1.ToString)
-
+        Console.WriteLine("Loro en la jaula: {0}", jaula1.Loro)
+        Console.WriteLine("Cotorras en la jaula: ")
         For Each cotorras As Cotorra In jaula1.getAllCotorra
             Console.Write("Cotorra: ")
             Console.WriteLine(cotorras)
