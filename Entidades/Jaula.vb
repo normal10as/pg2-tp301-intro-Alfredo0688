@@ -29,9 +29,9 @@
     End Property
 
     Public Sub addCotorra(cotorra As Cotorra)
-        While _listaCotorras.Count <= 3
+        If _listaCotorras.Count <= 3 Then
             _listaCotorras.Add(cotorra)
-        End While
+        End If
     End Sub
 
     Public Function getAllCotorra() As List(Of Cotorra)

@@ -17,6 +17,7 @@ Module CotorraTest
         Console.WriteLine(firstcotorra.Hablar)
         Console.WriteLine(firstcotorra.Hablar)
         Console.WriteLine("Fecha de nacimiento de la cotorra {0}", firstcotorra.FechaNacimiento)
+        Console.WriteLine("Edad humana: {0} Edad:{1}", firstcotorra.EdadHumana, firstcotorra.Edad)
         Console.ReadKey()
 
 
